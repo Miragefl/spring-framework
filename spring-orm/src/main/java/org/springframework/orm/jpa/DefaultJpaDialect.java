@@ -66,7 +66,6 @@ public class DefaultJpaDialect implements JpaDialect, Serializable {
 					"Specific arrangements may be implemented in custom JpaDialect variants.");
 		}
 		entityManager.getTransaction().begin();
-		System.out.println("================");
 		return null;
 	}
 
